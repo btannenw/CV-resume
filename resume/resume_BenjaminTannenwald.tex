@@ -1,14 +1,10 @@
 \documentclass[line]{letter}
-%\documentclass[margin,line]{letter}
-%\oddsidemargin -.2in
-%\evensidemargin -.7in
-%\textwidth=6.5in
-%\addtolength{\textheight}{.6in}
 
 \usepackage{bold-extra}
 \usepackage{enumitem}
 \usepackage{scrextend}
-\usepackage[textwidth=7in,textheight=9.75in]{geometry}
+\usepackage[notmath]{sansmathfonts}
+\usepackage[textwidth=7in,textheight=9.6in]{geometry}
 
 \newenvironment{list1}{
   \begin{list}{\ding{113}}{%
@@ -22,13 +18,10 @@
       \setlength{\parsep}{0in} \setlength{\parskip}{0in}
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
       \setlength{\leftmargin}{0.2in}}}{\end{list}}
-
-
-
+%
 \pagenumbering{gobble}
 \begin{document}
-
-%{\bf \large btannenwald@gmail.com \hspace{20mm}\Large Benjamin Tannenwald \hfill 614-648-4323\vspace*{.05in}}
+\sffamily
 { \begin{center}\huge \textsc{\textbf{Benjamin Tannenwald}} \end{center}}%\vspace*{.02in}}
 {\bf \normalsize https://github.com/btannenw \hfill +1-614-648-4323\\} 
 {\bf \normalsize www.linkedin.com/in/btannenw \hfill btannenwald@gmail.com\vspace*{-.15in}}
@@ -47,17 +40,19 @@
 {\large \it Ohio State University/CERN \hfill  2013 - 2017} \\
 \vspace{-6mm}
 \begin{itemize}[leftmargin=5mm]
-\item Worked in large data analysis collaboration to perform precise measurements of fundamental particles and search for new signatures of the Higgs boson with petabyte scale datasets collected at the CERN Large Hadron Collider
+\item Produced precise measurements of the interactions of fundamental particles and searched for new signatures of the Higgs boson with petabyte scale datasets collected at the CERN Large Hadron Collider
+\item Worked in small (2-4 people) and larger (10-20 people) analysis groups spread across multiple time zones in supporting and leadership roles coordinating workflow and collaborating on multiple projects
+
 \item Developed C++ software frameworks used by physicists at 6 collaborating international and American institutions
 \item Designed distributed computing algorithms to sift through terabytes of physics data, categorize events based on significant criteria, and optimize reconstruction of subatomic interactions using combinatorical likelihoods 
 \item Created data-driven methods for modeling background processes in searches for novel experimental signatures 
-\item Experience with statistical techniques to model uncertainties in complex multivariate processes and calculate significance of observed results
-\item Worked extensively with industrial control software, designing and commissioning user interfaces for experimental devices
+\item Modeled uncertainty in complex multivariate processes using various statistical techniques in order to understand significance of observed results
+\item Used industrial machinery control software to design and commission user interfaces for experimental devices
 \begin{itemize}
 \item Tested and installed sensitive silicon and diamond-based pixel detectors
 \item Used WinCC to create data structures and interface for efficient detector monitoring and operation
-\end{itemize}%\vspace{1mm}
-\item Presented analysis work and results to research groups inside the collaboration and to larger audiences at international scientific conferences%\vspace{2mm}
+\end{itemize}
+\item Presented analysis work and results to research groups inside the collaboration and to larger audiences at international scientific conferences
 \item Developed and maintained Condor computing cluster used for simulation and data analysis
 \end{itemize}
 \vspace{1mm}
@@ -72,10 +67,10 @@
 
 {\large {\bf Independent Projects}\vspace{1mm}}\\
 %\vspace{-5mm}
-{\large \it Columbus Political Campaign Finance} \\
+{\large \it Columbus Political Campaign Finance \hfill 2017} \\
 \vspace{-7mm}
 \begin{itemize}[leftmargin=5mm]
-\item Used Python with scrapy, BeautifulSoup, numpy, and matplotlib to scrape city government databases for municipal campaign finance information in Columbus, OH, created a database for querying the scraped data, and used information to find patterns in campaign activity and fundraising 
+\item Used Python with scrapy, BeautifulSoup, numpy, and matplotlib to scrape city government databases for municipal campaign finance information in Columbus, OH, create database for querying scraped data, and identify patterns in campaign activity and fundraising 
 \end{itemize}
 \end{addmargin}
 
@@ -98,7 +93,7 @@
 %\item Extensive experience with data analysis in C++ involving large volume data sets on distributed computing systems with Condor and distributed computing%\vspace{-2mm}
 %\item Accustomed to collaborating with both large and small groups across time zones and continents%\vspace{-2mm}
 
-\item Computing languages: C++, Python, shell scripting, \LaTeX, WinCC, and Mathematica
+\item Computing languages: C++, Python, shell scripting, \LaTeX, WinCC, Mathematica
 \item Tools: Scrapy, BeautifulSoup, Numpy, Matplotlib, Git, Condor
 \item Languages: English (native), French (fluent)
 \end{itemize}
